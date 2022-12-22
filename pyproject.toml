@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "MeowerBot"
-version = "1.4.1"
-description = "A meower bot lib for py"
-authors = ["showierdata9978 <68120127+showierdata9978@users.noreply.github.com>"]
-license = "MEOW"
+name = "MeowerBotLegacy"
+version = "1.5.0"
+description = "A project with the goal of maintaining the original 1.x.x version of MeowerBot"
+authors = ["showierdata9978 <68120127+showierdata9978@users.noreply.github.com>", "ArrowAced <89811520+ArrowAced@users.noreply.github.com>"]
+license = "MIT"
 readme = "README.md"
 packages = [
-    {include = "MeowerBot", from = "src"}
+    {include = "MeowerBotLegacy", from = "src"}
 ]
 repository = "https://github.com/showierdata9978/MeowerBot"
 
