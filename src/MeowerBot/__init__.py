@@ -176,7 +176,7 @@ class Client:
         self._call_callbacks("on_login", ())
 
     def _bot_on_close(self):
-        self._call_callbacks("on_close", (self.auto_reconect))
+        self._call_callbacks("on_close", (,))
 
 
     def _bot_on_error(self, e):
